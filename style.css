@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  margin-top:20vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide{
+box-shadow: 0.2rem 0.2rem 3rem 0.2rem rgb(144, 57, 202);
+  width:50vw;
+  height:70vh;
+  object-fit: cover;
+}
+#p{
+  text-align: center;
+  font-size:1.6rem;
+}
